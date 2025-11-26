@@ -2,7 +2,7 @@
 
 Sistema de conversión de divisas en tiempo real con análisis léxico y sintáctico completo.
 
-## 🚀 Instalación
+## Instalación
 
 ### 1. Clonar o descargar el proyecto
 
@@ -14,8 +14,7 @@ python -m venv venv
 
 # Activar
 venv\Scripts\activate
-
-
+```
 
 ### 3. Instalar dependencias
 
@@ -24,13 +23,13 @@ pip install -r requirements.txt
 ```
 
 
-## 🛠️ Dependencias
+## Dependencias
 
 - **lark-parser**: Parser de gramáticas
 - **tabulate**: Generación de tablas formateadas
 - **requests**: Cliente HTTP para API
 
-## 📝 Notas
+## Notas
 
 - Las tasas de cambio se obtienen en tiempo real de la API de ExchangeRate
 - Si la API no está disponible, se utilizan tasas de respaldo
